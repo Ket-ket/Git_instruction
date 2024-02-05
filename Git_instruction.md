@@ -55,4 +55,22 @@ git log --graph
 ```sh
 git log --oneline --graph
 ```
+
 ## Работа с ветками репозитория
+Просмотр доступных веток в репозитории (*[документация](https://git-scm.com/docs/git-branch)*):
+```sh
+git branch
+```
+Создание новой ветки:
+```sh
+git branch <branch_name>
+```
+Переход на указанную ветку:
+```sh
+git checkout <branch_name>
+```
+Удаление указанной ветки:
+```sh
+git branch -d <branch_name>
+```
+
