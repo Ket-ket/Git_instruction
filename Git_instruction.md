@@ -74,6 +74,8 @@ git checkout <branch_name>
 ```sh
 git branch -d <branch_name>
 ```
+
+## Слияние веток
 Слияние указанной ветки с текущей на которй находимся (*[документация](https://git-scm.com/docs/git-merge)*):
 ```sh
 git merge <branch_name>
