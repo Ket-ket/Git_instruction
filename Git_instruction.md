@@ -21,5 +21,29 @@ git add .
 git commit -m <message>
 ```
 ## Работа с историей
+Просмотр журнала изменений (*[документация](https://git-scm.com/docs/git-log)*):
+```sh
+git log
+```
+Просмотр журнала изменений в более компактном виде:
+```sh
+git log --oneline
+```
+Просмотр разницы между текущим состоянием файла и сохраненным (*[документация](https://git-scm.com/docs/git-diff)*):
+```sh
+git diff
+```
+Возврат к сохраненной версии файла (все изменения не сохраненные командой git commit пропадут)(*[документация](https://git-scm.com/docs/git-restore)*):
+```sh
+git restore
+```
+Переход к другой версии файла (*[документация](https://git-scm.com/docs/git-checkout)*):
+```sh
+git checkout <number_of_commit>
+```
+Переход на актуальную версию файла:
+```sh
+git checkout master
+```
 
 ## Работа с ветками репозитория
