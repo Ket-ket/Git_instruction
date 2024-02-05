@@ -1,5 +1,5 @@
 # **Инструкция по работе с Git**
- Создание пустого репозитория (*[документация](https://git-scm.com/docs/git-init "git init")*):
+ Создание пустого репозитория (*[документация](https://git-scm.com/docs/git-init)*):
  ```sh
 git init
  ```
