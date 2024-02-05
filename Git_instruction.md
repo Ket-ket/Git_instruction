@@ -1,5 +1,5 @@
 # **Инструкция по работе с Git**
- Создание пустого репозитория (*[документация](https://git-scm.com/docs/git-init "git init")*):
+ Создание пустого репозитория (*[документация](https://git-scm.com/docs/git-init)*):
  ```sh
 git init
  ```
@@ -8,6 +8,18 @@ git init
 git status
 ```
 ## Создание коммитов
+Добавление файла в индекс изменений (*[документация](https://git-scm.com/docs/git-add)*):
+```sh
+git add <file_name>
+```
+Добавление всех файлов в индеск изменений:
+```sh
+git add .
+```
+Сохранение изменений с указанием комментария (*[документация](https://git-scm.com/docs/git-commit)*):
+```sh
+git commit -m <message>
+```
 
 ## Работа с историей
 
