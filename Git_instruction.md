@@ -48,8 +48,3 @@ git checkout master
 
 ## Работа с ветками репозитория
 
-## Слияние веток
-Слияние указанной ветки с текущей на которй находимся (*[документация](https://git-scm.com/docs/git-merge)*):
-```sh
-git merge <branch_name>
-```
