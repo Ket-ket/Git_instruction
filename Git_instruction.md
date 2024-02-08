@@ -81,3 +81,24 @@ git branch -d <branch_name>
 git merge <branch_name>
 ```
 
+## Работа с удаленными репозиториями 
+Клонирование удаленного репозитория из GitHub в локальный репозиторий (*[документация](https://git-scm.com/docs/git-clone)*):
+```sh
+git clone <repository_link>
+```
+Добавление синхронизации между локальным репозиторием и удаленным репозиторием на GitHub (*[документация](https://git-scm.com/docs/git-remote)*):
+```sh
+git remote add origin <repository_link>
+```
+Переименование ветки и определение ее как основной для копирования в удаленный репозиторий на GitHub:
+```sh
+git branch -M main
+```
+Загрузка локального репозитория в удаленный репозиторий на GitHub (*[документация](https://git-scm.com/docs/git-push)*):
+```sh
+git push
+```
+Загрузка изменений из удаленного репозитория на GitHub в локальный репозиторий (*[документация](https://git-scm.com/docs/git-pull)*):
+```sh
+git pull
+```
